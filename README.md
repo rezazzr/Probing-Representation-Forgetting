@@ -1,4 +1,10 @@
-# Probing Forgetting in Supervised and Unsupervised Continual Learning
+# [Probing Forgetting in Supervised and Unsupervised Continual Learning](https://openaccess.thecvf.com/content/CVPR2022/html/Davari_Probing_Representation_Forgetting_in_Supervised_and_Unsupervised_Continual_Learning_CVPR_2022_paper.html)
+🗣 This repository includes the main code to reproduce our results from the following sections of the [paper](https://openaccess.thecvf.com/content/CVPR2022/html/Davari_Probing_Representation_Forgetting_in_Supervised_and_Unsupervised_Continual_Learning_CVPR_2022_paper.html):
+
+* **4.1** ImageNet Transfer
+* **4.4** Depth-wise Probes and Comparison to CKA
+
+The results shown in Sections **4.2** and **4.3** can be reproduced via the code in [this repository](https://github.com/naderAsadi/lifelong-ssl). 
 
 ## Poetry
 
@@ -42,3 +48,14 @@ poetry run python main.py --probe --probe_caller "CUB" --scenario "ImageNet2Scen
 ```
 
 The `tensorboard` results will be saved in the `tb_logs` directory.
+
+## Cite us as
+```bibtex
+@inproceedings{davari2022probing,
+ title      = {Probing Representation Forgetting in Supervised and Unsupervised Continual Learning},
+ author     = {Davari, MohammadReza and Asadi, Nader and Mudur, Sudhir and Aljundi, Rahaf and Belilovsky, Eugene},
+ booktitle  = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2022)},
+ year       = {2022},
+ month      = {June},
+ }
+```
