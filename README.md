@@ -4,7 +4,7 @@
 * **4.1** ImageNet Transfer
 * **4.4** Depth-wise Probes and Comparison to CKA
 
-The results shown in Sections **4.2** and **4.3** can be reproduced via the code in [this repository](https://github.com/naderAsadi/lifelong-ssl). 
+The results shown in Sections **4.2** and **4.3** can be reproduced via the code in [this repository](https://github.com/naderAsadi/Probing-Continual-Learning). 
 
 ## Poetry
 
